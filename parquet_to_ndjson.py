@@ -3,10 +3,10 @@
 Convert a local arXiv metadata Parquet shard into normalized NDJSON.
 
 Example:
-  python E:\\ArxivMeta\\parquet_importer\\parquet_to_ndjson.py E:\\ArxivMeta\\train-00009-of-00010.parquet
+  python parquet_to_ndjson.py example/sample.parquet
 
 Output:
-  E:\\ArxivMeta\\train-00009-of-00010.ndjson
+  example/sample.ndjson
 """
 
 from __future__ import annotations

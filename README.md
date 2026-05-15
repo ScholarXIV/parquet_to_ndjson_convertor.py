@@ -80,7 +80,7 @@ pip install pyarrow
 Run the converter:
 
 ```powershell
-python .\parquet_to_ndjson.py E:\ArxivMeta\train-00009-of-00010.parquet
+python .\parquet_to_ndjson.py .\example\sample.parquet
 ```
 
 By default, output is written beside the input file with the `.ndjson` extension.
